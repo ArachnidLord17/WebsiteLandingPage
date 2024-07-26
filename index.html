@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ProMan - Personal Portfolio HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+    <a href="index.html" class="navbar-brand d-block d-lg-none">
+        <h1 class="text-primary fw-bold m-0">Sanjith Tammana</h1>
+    </a>
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
+        <div class="navbar-nav ms-auto py-0">
+            <a href="#home" class="nav-item nav-link active">Home</a>
+            <a href="#skills" class="nav-item nav-link">Skills</a>
+            <a href="#projects" class="nav-item nav-link">Projects</a>
+            <a href="#contact" class="nav-item nav-link">Contact</a>
+        </div>
+        <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
+            <h1 class="text-primary fw-bold m-0">Sanjith Tammana</h1>
+        </a>
+    </div>
+</nav>
+<!-- Navbar End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-light my-6 mt-0" id="home">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 py-6 pb-0 pt-lg-0">
+                    <h3 class="text-primary mb-3">I'm</h3>
+                    <h1 class="display-3 mb-3">Sanjith Tammana</h1>
+                    <h2 class="typed-text-output d-inline"></h2>
+                    <div class="typed-text d-none">Student at Prosper High School, Aspiring Machine Learning Engineer, Loves Food-Philosophy-Movies</div>
+                    <div class="d-flex align-items-center pt-5">
+                        <a href="Sanjith_Tammana_-_Resume.pdf" class="btn btn-primary py-3 px-4 me-5" download="Sanjith_Tammana_-_Resume.pdf">Download Resume</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="img/profile.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- 16:9 aspect ratio -->
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+    <!-- Expertise Start -->
+    <div class="container-xxl py-6 pb-5" id="skills">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-5 mb-5">Skills & Experience</h1>
+                    <p class="mb-4">My diverse set of skills and experiences in various domains allows me to approach problems from different angles and contribute to innovative solutions.</p>
+                    <h3 class="mb-4">My Skills</h3>
+                    <div class="accordion" id="skillsAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Programming Languages & Tools
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#skillsAccordion">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Python</li>
+                                        <li>Java</li>
+                                        <li>HTML, CSS</li>
+                                        <li>Technical security awareness</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Data Science & Machine Learning
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#skillsAccordion">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>NumPy</li>
+                                        <li>Pandas</li>
+                                        <li>Matplotlib</li>
+                                        <li>Seaborn</li>
+                                        <li>Scikit-Learn</li>
+                                        <li>Neural Networks and Regression Models</li>
+                                        <li>Supervised Learning</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Soft Skills
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#skillsAccordion">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Communication</li>
+                                        <li>Team Collaboration</li>
+                                        <li>Problem-Solving</li>
+                                        <li>Adaptability</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
+                        <li class="nav-item w-33">
+                            <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill" href="#tab-1">Experience</button>
+                        </li>
+                        <li class="nav-item w-33">
+                            <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-2">Education</button>
+                        </li>
+                        <li class="nav-item w-33">
+                            <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-3">Certifications</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>Research Intern</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">Jun 2023 - Jul 2023</p>
+                                    <h6 class="mb-0">UT Dallas Computer Science</h6>
+                                    <p>Research Internship at StaRLiNG Lab UT Dallas. Worked on a research project in a group of 5 to analyze and predict football player transfer values.</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Headstarter Software Engineering Fellow</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">Jul 2024 - Present</p>
+                                    <h6 class="mb-0">Headstarter</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Intern</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">Jul 2024 - Present</p>
+                                    <h6 class="mb-0">Dugree</h6>
+                                    <p>Learning about the intersection between AI and philosophy.</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Tutoring Volunteer</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">Jun 2022 - Nov 2022</p>
+                                    <h6 class="mb-0">Gideon Math and Reading Tutoring</h6>
+                                    <p>Provided tutoring in math and reading to students, enhancing their understanding and academic performance.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>High School</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2023 - Present</p>
+                                    <h6 class="mb-0">Prosper High School</h6>
+                                    <p>Taking courses with a focus on STEM.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-3" class="tab-pane fade show p-0">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>IT Specialist - Java</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">Issued May 2023</p>
+                                    <h6 class="mb-0">Certiport</h6>
+                                    <p>Certified Java programming specialist with expertise in object-oriented programming (OOP).</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>PCEP – Certified Entry-Level Python Programmer</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">Issued Jul 2022</p>
+                                    <h6 class="mb-0">OpenEDG Python Institute</h6>
+                                    <p>Certified in Python programming, proficient in developing applications and automating tasks.</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Mastercard Cybersecurity virtual experience program, Forage</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">Issued Jul 2024</p>
+                                    <h6 class="mb-0">Forage</h6>
+                                    <p>Completed a cybersecurity job simulation.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Expertise End -->
+
+    <!-- Projects Start -->
+    <div class="container-xxl py-6 pt-5" id="projects">
+        <div class="container">
+            <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">My Projects</h1>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-12 portfolio-item">
+                    <div class="project-content">
+                        <h5 class="mt-2">Football Player Transfer Value Regression Model</h5>
+                        <p>Developed during my internship at UTD, this project uses regression analysis to predict football player transfer values based on various factors.</p>
+                    </div>
+                </div>
+                <div class="col-lg-12 portfolio-item">
+                    <div class="project-content">
+                        <h5 class="mt-2">Personal Portfolio Website</h5>
+                        <p>Designed and developed a personal portfolio website to showcase my projects and skills. Hosted on GitHub Pages.</p>
+                    </div>
+                </div>
+                <!-- Add more project entries here as needed -->
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
+<!-- Contact Start -->
+<div class="container-xxl pb-5" id="contact">
+    <div class="container py-5">
+        <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="col-lg-6">
+                <h1 class="display-5 mb-0">Let's Work Together</h1>
+            </div>
+        </div>
+        <div class="row g-5">
+            <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <p class="mb-2">Call me:</p>
+                <h3 class="fw-bold">+1 (201) 301-8677</h3>
+                <hr class="w-100">
+                <p class="mb-2">Email me:</p>
+                <h3 class="fw-bold">sanjith.tammana@gmail.com</h3>
+                <hr class="w-100">
+                <p class="mb-2">Follow me:</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-square btn-primary me-2" href="https://www.linkedin.com/in/stammana17/"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square btn-primary me-2" href="https://www.instagram.com/sanjithtammana/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <form action="https://formspree.io/f/mkgwoagw" method="POST" id="contact-form">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                                <label for="name">Your Name</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                                <label for="email">Your Email</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                                <label for="subject">Subject</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 100px" required></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                        </div>
+                        <input type="hidden" name="_cc" id="cc">
+                        <div class="col-12">
+                            <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+                <div id="success-message" style="display:none; color: green;">Message sent successfully! A copy has been sent to your email.</div>
+                <div id="error-message" style="display:none; color: red;">Failed to send message. Please try again later.</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const form = event.target;
+    const data = new FormData(form);
+
+    // Set the CC field to the sender's email
+    data.set('_cc', form.email.value);
+
+    fetch(form.action, {
+        method: 'POST',
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+    }).then(response => {
+        if (response.ok) {
+            document.getElementById('success-message').style.display = 'block';
+            document.getElementById('error-message').style.display = 'none';
+            form.reset();
+            setTimeout(() => {
+                document.getElementById('success-message').style.display = 'none';
+                location.reload(); // Refresh the page after 5 seconds
+            }, 5000); // Hide success message and refresh after 5 seconds
+        } else {
+            response.json().then(data => {
+                if (Object.hasOwn(data, 'errors')) {
+                    document.getElementById('error-message').innerText = data["errors"].map(error => error["message"]).join(", ");
+                } else {
+                    document.getElementById('error-message').innerText = 'Oops! There was a problem submitting your form';
+                }
+                document.getElementById('success-message').style.display = 'none';
+                document.getElementById('error-message').style.display = 'block';
+            });
+        }
+    }).catch(error => {
+        document.getElementById('success-message').style.display = 'none';
+        document.getElementById('error-message').innerText = 'Oops! There was a problem submitting your form';
+        document.getElementById('error-message').style.display = 'block';
+    });
+});
+</script>
+<!-- Contact End -->
+
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid bg-dark text-white py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom text-secondary" href="#">Your Site Name</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom text-secondary" href="https://htmlcodex.com">HTML Codex</a>
+                        <br>Distributed By: <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
