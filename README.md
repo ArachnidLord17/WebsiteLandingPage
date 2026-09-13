@@ -4,9 +4,7 @@ UT Austin computer science student interested in software systems, AI/ML, and us
 
 ## Currently working with
 
-Python, JavaScript, React, Next.js, Streamlit, Firebase, and LLM-backed application workflows.
-
-I use Claude Code and Codex while building, but I treat generated code as something I need to understand, debug, and be able to repair myself.
+Python, JavaScript, React, Next.js, Streamlit, and Firebase.
 
 ## Elsewhere
 
